@@ -1,0 +1,19 @@
+{
+  "name": "locomotivemtl/advanced-custom-fields-pro",
+  "description": "Fork of ACF Pro repository for Composer usage.",
+  "type": "wordpress-plugin",
+  "license": "GPL-3.0",
+  "minimum-stability": "dev",
+  "extra": {
+    "branch-alias": {
+      "dev-master": "5.5-dev"
+    }
+  },
+  "require": {
+    "php": ">=5.4",
+    "composer/installers": "~1.0"
+  },
+  "extra": {
+    "installer-name": "advanced-custom-fields-pro"
+  }
+}
